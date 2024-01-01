@@ -309,5 +309,13 @@ main {
     flex-direction: column-reverse;
     padding: 5rem 1rem;
   }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .rate {
+    font-size: 1.2rem;
+  }
 }
 /* Main */
