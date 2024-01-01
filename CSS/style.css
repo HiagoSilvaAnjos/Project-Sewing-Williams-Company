@@ -285,6 +285,10 @@ main {
   max-width: 500px;
 }
 
+.exclusive-vest-container > div > h2 {
+  text-align: center;
+}
+
 /* Main Media Queires */
 @media (max-width: 800px) {
   .cosl-images-3 {
