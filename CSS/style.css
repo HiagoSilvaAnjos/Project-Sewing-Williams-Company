@@ -41,7 +41,7 @@ font-family: 'Public Sans', sans-serif;
   z-index: 99;
 }
 
-.navBar .container-inner-content > h1 {
+.logo-page {
   text-transform: uppercase;
   font-size: 1.6rem;
   font-family: "Public Sans", sans-serif;
@@ -375,3 +375,96 @@ main {
 }
 
 /* Main */
+
+/* Footer */
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #8f8f8f;
+  padding: 3rem 1rem;
+  gap: 3rem;
+}
+
+.dowload-opitions > * {
+  margin: 1rem 0;
+}
+
+.dowload-opitions > p:first-child {
+  color: #fff;
+  font-weight: bold;
+}
+
+.dowload-opitions > div {
+  display: flex;
+}
+
+.dowload-opitions > div img {
+  max-width: 180px;
+  cursor: pointer;
+}
+
+.logo-footer * {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.links-utilitis h3 {
+  color: #fff;
+  margin-bottom: 0.8rem;
+}
+
+.links-utilitis ul li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  list-style: none;
+  transition: all 0.2s;
+}
+
+.links-utilitis ul li:hover {
+  color: #c7c7c7;
+}
+
+.copyright {
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.copyright a:hover {
+  color: #c7c7c7;
+}
+
+/* Media Queires */
+@media (max-width: 800px) {
+  .footer-content {
+    display: inline;
+    font-size: 0.9rem;
+  }
+
+  .footer-content > div {
+    padding: 1rem;
+  }
+
+  .dowload-opitions > div img {
+    max-width: 120px;
+  }
+
+  .dowload-opitions > div {
+    display: inline;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
+
+/* Footer */
