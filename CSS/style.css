@@ -304,6 +304,11 @@ main {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .cosl-images-4 {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 110%;
+  }
+
   .exclusive-vest-container {
     color: #fff;
     flex-direction: column-reverse;
